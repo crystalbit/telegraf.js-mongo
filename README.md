@@ -1,7 +1,11 @@
 # telegraf.js-mongo
 [beta] telegraf.js middleware to push info about bot users to mongodb
 
-usage: `bot.use(require('telegraf-mongodb-middleware')(mongoDbConnectionString));`
+usage:
+```
+const mongoMiddleware = require('telegraf-mongodb-middleware')(mongoDbConnectionString);
+bot.use(mongoMiddleware);
+```
 
 `mongoDbConnectionString` here is the connection string to mongodb
 
