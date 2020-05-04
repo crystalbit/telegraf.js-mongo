@@ -1,0 +1,33 @@
+{
+  "name": "telegraf-mongo",
+  "version": "1.0.0",
+  "description": "Telegraf.js middleware to push info about bot users to mongo.db",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/**/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crystalbit/telegraf.js-mongo.git"
+  },
+  "keywords": [
+    "telegraf",
+    "telegrafjs",
+    "telegram",
+    "telegram",
+    "bot"
+  ],
+  "author": "crystalbit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crystalbit/telegraf.js-mongo/issues"
+  },
+  "homepage": "https://github.com/crystalbit/telegraf.js-mongo#readme",
+  "dependencies": {
+    "mongoose": "^5.9.11"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.2"
+  }
+}
