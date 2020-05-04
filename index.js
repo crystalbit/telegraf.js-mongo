@@ -16,7 +16,8 @@ const _connect = mongoUrl => {
 
 module.exports = mongoUrl => {
     _connect(mongoUrl);
-    return async ctx => {
+    return async (ctx, next) => {
+        next();
         const update = ctx.update || {};
         const msg = update.message || {};
         const from = msg.from || {};
