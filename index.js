@@ -20,12 +20,12 @@ module.exports = mongoUrl => {
         next();
         const update = ctx.update || {};
         const msg = update.message || {};
-        const from = msg.from || {};
-        if (!from.id) return;
+        const chat = msg.chat || {};
+        if (!chat.id) return;
         return await User.updateOne(
-            { id: from.id },
+            { id: chat.id },
             {
-                ... from,
+                ... chat,
                 ping: new Date,
                 $inc: { messages: 1 }
             },
