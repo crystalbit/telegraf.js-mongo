@@ -103,4 +103,6 @@ dist
 # TernJS port file
 .tern-port
 
-tests/config.js
+tests/config.ts
+
+/lib
