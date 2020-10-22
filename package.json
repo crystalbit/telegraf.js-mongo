@@ -1,6 +1,6 @@
 {
   "name": "telegraf-mongodb-middleware",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Telegraf.js middleware to push info about bot users to mongodb",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",

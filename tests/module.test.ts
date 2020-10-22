@@ -9,7 +9,7 @@ it('test module', async () => {
     update: {
       message: {
         from: {
-          id: 666,
+          id: 667,
           username: 'diabolic cat',
           is_bot: false,
           first_name: 'Cat',
@@ -17,7 +17,7 @@ it('test module', async () => {
         message_id: 1,
         date: +new Date(),
         chat: {
-          id: 666,
+          id: 667,
           type: '',
         },
       },
