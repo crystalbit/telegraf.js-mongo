@@ -33,7 +33,7 @@
   },
   "homepage": "https://github.com/crystalbit/telegraf.js-mongo#readme",
   "dependencies": {
-    "mongoose": "^5.9.11",
+    "mongoose": "^8.2.0",
     "telegraf": "^3.38.0"
   },
   "devDependencies": {
